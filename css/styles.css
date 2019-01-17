@@ -1,6 +1,15 @@
-.tall {
+#tall {
   display: none;
 }
-.short {
+#short {
   display: none;
+}
+.extremeRides {
+  display: none;
+}
+.smallRides {
+  display: none;
+}
+#ex {
+  background-color: blue;
 }

@@ -9,21 +9,25 @@
     <title>AmusementPark</title>
   </head>
   <body>
-    <form id="enterHeight">
-      <div class="form-group">
-        <label for="yourHeight">Please enter your height (in inches):</label>
-        <input id="yourHeight" class="form-control" type="text">
+    <div class="container">
+      <h1>Welcome to the amazing amusment park: JOLLIES!</h1>
+      <button type="submit" id="allRides" class="btn btn-info">View All Rides</button>
+      <button type="submit" id="checkHeight" class="btn btn-info">Check your height</button>
+      <div id="tall">
+        <h3><span class="tall"> These are the rides you can go on sense you are tall enough</span></h3>
       </div>
-      <button type="submit" class="btn btn-danger">Submit</button>
-    </form>
-    <div id="tall">
-      <p><span class="tall"> These are the rides you can go on sense you are tall enough</span></p>
+      <div id="short">
+        <h3><span class="short">You are tall enough to ride these rides!</span></h3>
+      </div>
+      <div class="extremeRides" id="ex">Tagada ride <br> Drop tower <br> Pendulum ride <br> Roller coaster</div>
+      <div class="smallRides" id="sm">Simulator ride <br> Swing ride <br> Water ride</div>
+      <form id="enterHeight">
+        <div class="form-group">
+          <label for="yourHeight">Please enter your height (in inches):</label>
+          <input id="yourHeight" class="form-control" type="text" required>
+        </div>
+        <button type="submit" class="btn btn-danger">Submit</button>
+      </form>
     </div>
-    <div id="short">
-      <p><span class="short">We're sorry, you are not tall enough to ride.</span></p>
-    </div>
-    <div class="extremeRides">Dark ride <br> Drop tower <br> Pendulum ride <br> Roller coaster</div>
-    <div class="smallRides">Simulator ride <br> Swing ride <br> Water ride</div>
-
   </body>
 </html>
